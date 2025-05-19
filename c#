@@ -4,4 +4,6 @@ public int resta (int num1, int num2)
     float numeroDos = num2;
 
     float respuesta = numeroUno - numeroDos;
+
+    return respuesta;
 }
