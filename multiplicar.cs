@@ -1,17 +1,7 @@
-using System;
-
-class Program
+public int multiplicar (int num1, int num2)
 {
-    static void Main()
-    {
-        // Declarar los números
-        int numero1 = 5;
-        int numero2 = 10;
-
-        // Multiplicar
-        int resultado = numero1 * numero2;
-
-        // Mostrar el resultado
-        Console.WriteLine("El resultado de la multiplicación es: " + resultado);
-    }
+    int numeroUno = num1;
+    int numeroDos = num2;
+    int respuesta = (numeroUno * numeroDos);
+    return respuesta;
 }
